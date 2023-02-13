@@ -13,6 +13,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  position: fixed;
+  width: 100%;
 }
 button {
   padding: 16px 20px;
@@ -53,4 +56,16 @@ ul {
 }
 #logoifood {
   border-radius: 75%;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: x-large;
+  font-stretch: ultra-condensed;
+  text-align: center;
+  background-image: radial-gradient(black,black,transparent);
+  padding: 10px 10px;
 }
